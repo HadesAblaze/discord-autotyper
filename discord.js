@@ -3,18 +3,26 @@ const {types} = require("./utils/types");
 
 // list all the words here, will pick them randomly, doesn't matter how many!
 const words = [
-    "hey",
-    "hello",
-    "test",
-    "sell",
-    "jay",
-    "javascript",
+    "Lets get this WL!!",
+    "I love the art and this community",
+    "No sleep until WL",
+    "LETS GOOOOO",
+    "LFG",
+    "We are going to the moon",
+    "Hope everyone is doing well",
+    "HE NEED SOME MILK",
+    "I cant wait for the drop on Feb 4th",
+    "Keep grinding for WL everyone",
+    "Grind never stops wont stop",
+    "Lets get this bread",
+    "lets get this shiiii top of the morning",
+    "Lets go guys",
 ]
 let logCount = 0;
 
 const BASE_URL = 'https://discord.com';
 // change this & enter the channel url
-const discord = {
+const discord = {'https://discord.com/channels/930238107020836885/930381310302752808'
     browser: null,
     page: null,
 
@@ -125,7 +133,7 @@ const discord = {
 
             // change the first number for minutes
             // 3 * 60 * 1000 = 180000ms === 3 minutes
-            setInterval(randomWord, delay * 60 * 1000)
+            setInterval(randomWord, .20 * 60 * 1000)
 
     }
 }
